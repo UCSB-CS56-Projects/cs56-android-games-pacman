@@ -2,7 +2,10 @@ package com.example.jimmyle.pacmanandroid;
 
 import android.app.Activity;
 import android.app.DialogFragment;
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -59,5 +62,4 @@ public class CompletedLevelActivity extends Activity {
             }
         }
     }
-
 }

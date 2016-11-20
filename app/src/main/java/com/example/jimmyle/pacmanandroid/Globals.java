@@ -26,4 +26,13 @@ public class Globals{
         }
         return instance;
     }
+
+    public static void nextLevel(){
+        Globals g = Globals.getInstance();
+
+        if(g.getLevelSelector() != 3)
+            g.setLevelSelector(g.getLevelSelector()+1);     //goes to next level, max 3
+        else
+            g.setLevelSelector(1);      //goes back to level 1
+    }
 }

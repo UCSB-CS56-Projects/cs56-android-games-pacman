@@ -25,6 +25,7 @@ public class PauseActivity extends Activity {
         startActivity(playIntent);
         PlayActivity.getInstance().finish();
         this.finish();
+        GameConditions.resetCurrentScore();
     }
 
     // Method to resume the game
